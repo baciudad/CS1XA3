@@ -21,9 +21,6 @@ do      #Display menu
              ;;
         c|C) echo ""
              echo "BLANK FOR FUTURE EXPAINSION "
-             echo -n "Enter a Directory: "
-             read directory
-             ./question3.bsh $directory
              ;;
         #exiting the program
         x|X) echo "Goodbye"
