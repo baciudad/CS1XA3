@@ -13,7 +13,7 @@ do      #Display menu
         #apply selected option to the action for each program
         case $option in
         a|A) echo "TODO Log Working"
-             ./todo.bsh
+             ./TODO.sh
              ;;
         b|B) echo ""
              echo "Error Log Working "
