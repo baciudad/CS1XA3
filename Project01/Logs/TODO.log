@@ -1,0 +1,8 @@
+TEST.txt:1:#TODO Test File
+TEST.txt:2:#TODO Add Stuff
+TEST.txt:3:#TODO Make Magic
+Project01/TODO.sh:13:grep -Hrn ".*#TODO.*" > Project01/Logs/TODO.log
+Project01/TEST.txt:1:Stuff #TODO Test File
+Project01/TEST.txt:2:#TODO Add Stuff
+Project01/TEST.txt:3:#TODO Make Magic
+Project01/README.md:18:- The program then uses grep to find all the lines from ever file in the repo that contain #TODO and place them along with the file name and line number into the TODO.log file

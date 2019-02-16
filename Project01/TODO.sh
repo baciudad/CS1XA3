@@ -10,7 +10,7 @@ fi
 
 touch Project01/Logs/todo.log
 
-grep -Hrn ".*#TODO.*" > Project01/Logs/TODO.log
+grep -Hrn ".*#TODO.*" > Project01/Logs/todo.log
 
 echo "DONE, Please see TODO.log for Results"
 
