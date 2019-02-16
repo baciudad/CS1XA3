@@ -6,6 +6,10 @@ Github: github.com/baciudad/CS1XA3
 
 
 
+###### *To use the project run the project_analyze.sh file in bash and work through the menus to use the various functions.*
+
+
+
 ### Feature 1: Script Input Menu
 
 - This program was designed with expansion in mind. The menu system was created to allow the user to filter through the options as many times as they wish until they choose to exit.
