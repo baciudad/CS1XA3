@@ -2,8 +2,6 @@
 
 echo "TODO.sh Executing"
 
-mkdir Logs
-
 cd ..
 
 if [ -f Project01/Logs/todo.log ] ; then

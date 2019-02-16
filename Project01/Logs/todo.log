@@ -2,14 +2,7 @@ Project01/README.md:18:- The program then uses grep to find all the lines from e
 Project01/TEST.txt:1:Stuff #TODO Test File
 Project01/TEST.txt:2:#TODO Add Stuff
 Project01/TEST.txt:3:#TODO Make Magic
-Project01/TODO.sh:15:grep -Hrn ".*#TODO.*" > Project01/Logs/TODO.log
+Project01/TODO.sh:13:grep -Hrn ".*#TODO.*" > Project01/Logs/TODO.log
 TEST.txt:1:#TODO Test File
 TEST.txt:2:#TODO Add Stuff
 TEST.txt:3:#TODO Make Magic
-todo.log:1:Project01/TEST.txt:1:Stuff #TODO Test File
-todo.log:2:Project01/TEST.txt:2:#TODO Add Stuff
-todo.log:3:Project01/TEST.txt:3:#TODO Make Magic
-todo.log:4:Project01/TODO.sh:13:grep -Hrn ".*#TODO.*" > TODO.log
-todo.log:5:TEST.txt:1:#TODO Test File
-todo.log:6:TEST.txt:2:#TODO Add Stuff
-todo.log:7:TEST.txt:3:#TODO Make Magic
