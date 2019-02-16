@@ -14,4 +14,6 @@ Github: github.com/baciudad/CS1XA3
 
 ### Feature 2: TODO Log Program
 
-- 
+- Looks to see if todo.log file exists, if it does the program will delete it before creating a new file
+- The program then uses grep to find all the lines from ever file in the repo that contain #TODO and place them along with the file name and line number into the TODO.log file
+- Lastly it directs the user to the  todo.log file for the results
