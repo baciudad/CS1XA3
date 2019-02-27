@@ -5,7 +5,7 @@ do      #Display menu
         echo "Select one of the options"
         echo "a. TODO Log"
         echo "b. Error Log"
-        echo "c. BLANK"
+        echo "c. Clean Directory"
         echo "x. Exit"
         #getting an option from the user
         echo -n "Option: "
@@ -20,7 +20,10 @@ do      #Display menu
              ./error.sh
              ;;
         c|C) echo ""
-             echo "BLANK FOR FUTURE EXPAINSION "
+             echo -m "Enter Directory Path: "
+             read option
+             ./CleanDir.sh $option
+             echo "Cleaning Directory "
              ;;
         #exiting the program
         x|X) echo "Goodbye"
