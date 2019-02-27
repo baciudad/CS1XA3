@@ -4,7 +4,7 @@ Created By: Dragos Baciu-David
 
 Github: github.com/baciudad/CS1XA3
 
-
+### 
 
 ### Feature 1: Script Input Menu
 
@@ -17,3 +17,9 @@ Github: github.com/baciudad/CS1XA3
 - Looks to see if todo.log file exists, if it does the program will delete it before creating a new file
 - The program then uses grep to find all the lines from ever file in the repo that contain #TODO and place them along with the file name and line number into the TODO.log file
 - Lastly it directs the user to the  todo.log file for the results
+
+### Feature 3: Clean Directory Program
+
+- This program will take in a directory path relative to the project directory
+- The program then finds all .tmp files and deletes them prompting
+- The program will continue to loop until a valid directory is provided to the program at which point it will complete the operation
