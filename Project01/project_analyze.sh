@@ -4,7 +4,7 @@ while [ true ]
 do      #Display menu
         echo "Select one of the options"
         echo "a. TODO Log"
-        echo "b. Error Log"
+        echo "b. Unit Converter"
         echo "c. Clean Directory"
         echo "x. Exit"
         #getting an option from the user
@@ -16,8 +16,7 @@ do      #Display menu
              ./TODO.sh
              ;;
         b|B) echo ""
-             echo "Error Log Working "
-             ./error.sh
+             ./UnitConv.sh
              ;;
         c|C) echo ""
              echo -m "Enter Directory Path: "

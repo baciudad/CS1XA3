@@ -23,3 +23,11 @@ Github: github.com/baciudad/CS1XA3
 - This program will take in a directory path relative to the project directory
 - The program then finds all .tmp files and deletes them prompting
 - The program will continue to loop until a valid directory is provided to the program at which point it will complete the operation
+
+### Feature 4: Unit Convertion
+
+- This program will convert between simple units on measurements to approximate accuracy
+- Built into the program is a menu system that allows you to select various options
+- Each option will prompt for input and provide appropriate output
+- The program runs in a loop that checks for correct input and prompts if the input is incorrect
+- The program will continue until the user request an exit from the program
