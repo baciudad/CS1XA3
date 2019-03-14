@@ -36,3 +36,32 @@ Quit the server with CONTROL-C.
 [14/Mar/2019 16:15:45] "GET /e/baciudad/ HTTP/1.1" 200 5
 [14/Mar/2019 16:15:45] "GET /e/baciudad/ HTTP/1.1" 200 5
 [14/Mar/2019 16:15:46] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:18:42] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:18:42] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:18:43] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:18:43] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:18:43] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:38:20] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:38:32] "GET /e/baciudad/get/ HTTP/1.1" 200 23
+[14/Mar/2019 16:38:44] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:38:49] "GET /e/baciudad/get/ HTTP/1.1" 200 23
+[14/Mar/2019 16:39:18] "GET /e/baciudad/get/?name=Dragos&age=20 HTTP/1.1" 200 31
+[14/Mar/2019 16:42:22] "GET /e/baciudad/get/?name=Dragos&age=20 HTTP/1.1" 200 23
+[14/Mar/2019 16:42:25] "GET /e/baciudad/post/?name=Dragos&age=20 HTTP/1.1" 200 23
+[14/Mar/2019 16:42:26] "GET /e/baciudad/post/?name=Dragos&age=20 HTTP/1.1" 200 23
+[14/Mar/2019 16:44:32] "POST /e/baciudad/post/ HTTP/1.1" 200 31
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 14, 2019 - 16:42:20
+Django version 2.1.7, using settings 'django_project.settings'
+Starting development server at http://localhost:10006/
+Quit the server with CONTROL-C.
+[14/Mar/2019 16:46:03] "GET /e/baciudad/post/?name=Dragos&age=20 HTTP/1.1" 200 31
+[14/Mar/2019 16:46:39] "GET /e/baciudad/post/?name=Dragos&age=20 HTTP/1.1" 200 24
+[14/Mar/2019 16:46:47] "POST /e/baciudad/post/ HTTP/1.1" 200 32
+[14/Mar/2019 16:47:20] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:47:24] "GET /e/baciudad/get/?name=Dragos&age=20 HTTP/1.1" 200 31
