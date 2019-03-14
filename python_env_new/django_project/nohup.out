@@ -1,0 +1,38 @@
+Not Found: /e/baciudad/
+[14/Mar/2019 15:53:11] "GET /e/baciudad/ HTTP/1.1" 404 2061
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 14, 2019 - 15:53:08
+Django version 2.1.7, using settings 'django_project.settings'
+Starting development server at http://localhost:10006/
+Quit the server with CONTROL-C.
+[14/Mar/2019 15:54:11] "GET /e/baciudad/ HTTP/1.1" 200 37
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 14, 2019 - 15:54:06
+Django version 2.1.7, using settings 'django_project.settings'
+Starting development server at http://localhost:10006/
+Quit the server with CONTROL-C.
+[14/Mar/2019 15:54:56] "GET /e/baciudad/ HTTP/1.1" 200 44
+[14/Mar/2019 15:55:19] "GET /e/baciudad/ HTTP/1.1" 200 44
+[14/Mar/2019 15:55:19] "GET /e/baciudad/ HTTP/1.1" 200 44
+[14/Mar/2019 15:55:20] "GET /e/baciudad/ HTTP/1.1" 200 44
+[14/Mar/2019 15:55:20] "GET /e/baciudad/ HTTP/1.1" 200 44
+[14/Mar/2019 15:55:20] "GET /e/baciudad/ HTTP/1.1" 200 44
+[14/Mar/2019 16:12:17] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:13:39] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:15:44] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:15:45] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:15:45] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:15:45] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:15:45] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:15:45] "GET /e/baciudad/ HTTP/1.1" 200 5
+[14/Mar/2019 16:15:46] "GET /e/baciudad/ HTTP/1.1" 200 5
