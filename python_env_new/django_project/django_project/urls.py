@@ -21,4 +21,5 @@ root = "e/baciudad/"
 
 urlpatterns = [
     path(root, include("testreq.urls")),
+    path(root + 'templateapp/', include('templateapp.urls')) ,
 ]

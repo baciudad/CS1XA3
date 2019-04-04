@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'testrequests.apps.TestrequestsConfig',
+    'templateapp.apps.TemplateappConfig',
     'helloapp.apps.HelloappConfig',
     'testreq.apps.TestreqConfig',
     'django.contrib.admin',
