@@ -120,4 +120,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/e/baciudad/static/'
+
+STATICFILES_DIRS = [
+    "/home/baciudad/CS1XA3/public_html/",
+    # paths to collect static files from
+]
+STATIC_ROOT = "/home/baciudad/CS1XA3/python_env_new/django_project/static/"
