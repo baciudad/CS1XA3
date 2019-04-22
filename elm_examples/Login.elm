@@ -16,7 +16,7 @@ import String
 
 
 rootUrl =
-    "http://localhost:8000/e/macid/"
+    "http://mac1xa3/ca/e/baciudad/"
 
 
 
