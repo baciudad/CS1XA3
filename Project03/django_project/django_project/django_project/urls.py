@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+root = 'e/baciudad/'
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path(root + 'loginapp/', include('loginapp.urls')) ,
 ]
